@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#"> О Нас</a>
+          </li>
+            <li class="navigation-item">
+            <a class="navigation-link" href="katalog.html"> Каталог</a>
+          </li>
+            <li class="navigation-item">
+            <a href="#"> Частые вопросы</a>
+          </li>
+        </ul>
+         <ul class="navigation-list navigation user">
+          <li class="navigation-item">
+            <a href="#"> <span class="vissualy-hidden">
+            Поиск
+          </span>
+          </a>
+          </li>
+            <li class="navigation-item">
+            <a href="#"> <span class="vissualy-hidden">
+            Корзина
+          </span></a>
+          </li>
+            <li class="navigation-item">
+            <a href="#">Вход</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-index">
+      <h1 class="vissualy-hidden">Барбершоп "Fargo"</h1>
+      <img class="logo" src="" alt="лого Барбершоп Бородинский">
+      <section class="advanteges">
+        <h2 class="vissualy-hidden">Преимущества</h2> 
+        <ul class="advanteges-list">
+          <li class="advanteges-item">
+            <h3 class="advanteges-title">Быстро</h3>
+            <p class="advanteges-discription"> Мы делаем свою работу быстро! Два часа пролетят незаметно и вы обладатель стильной стрижки минутки!</p>
+          </li>
+          <li class="advanteges-item">
+            <h3 class="advanteges-title">Круто</h3>
+            <p class="advanteges-discription"> Забудьте как вы стриглись раньше! Мы сделаем из вас звезду футбола или кино!
+            Во всяком случае внешнее</p>
+          </li>
+          <li class="advanteges-item">
+            <h3 class="advanteges-title">Дорого</h3>
+            <p class="advanteges-discription"> Наши мастера профисионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает оплерделенный статус?</p>
+          </li>
+        </ul>
+      </section>
+      <section class="services">
+        <h2 class="services-title"> Популярные услуги</h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <span class="services-name"> Стрижка машинкой</span>
+              <b class="services-price"> 800 грн </b>
+            </li>
+            <li class="services-item">
+              <span class="services-name"> Стрижка усов</span>
+              <b class="services-price"> 1200 грн </b>
+            </li>
+            <li class="services-item">
+              <span class="services-name">Груминг</span>
+              <b class="services-price"> 400 грн </b>
+            </li>
+            <li class="services-item">
+              <span class="services-name">Комплексная стрижка</span>
+              <b class="services-price"> 800 грн </b>
+            </li>
+
+          </ul>
+          <a class="button bitton-all" href="#">Посмотреть на все</a>
+        </section>
+        <section class="gallery">
+          <h2 class="gallery-title">Фотогалерея</h2>
+          <img class="slider-image" src="" alt="Примеры работ">
+          <button class="slider-button slider-prev" type="button">
+            <span class="vissualy-hidden">Преведущее фото</span>
+          </button>
+          <button class="slider-button slider-next" type="button">
+            <span class="vissualy-hidden">Следующие фото</span>
+          </button>
+          <ol class="slider-pagination">
+            <li class="slider-pagination-item">
+              <button class="slider-pagination-button slider-pagination-butten-current" type="button">
+                <span class="vissualy-hidden">1 фото</span> 
+              </button>
+            </li>
+            <li class="slider-pagination-item">
+              <button class="slider-pagination-button slider-pagination-butten-current" type="button">
+                <span class="vissualy-hidden">2 фото</span> 
+              </button>
+            </li>
+            <li class="slider-pagination-item">
+              <button class="slider-pagination-button slider-pagination-butten-current" type="button">
+                <span class="vissualy-hidden">3 фото</span> 
+              </button>
+            </li>
+            <li class="slider-pagination-item">
+              <button class="slider-pagination-button slider-pagination-butten-current" type="button">
+                <span class="vissualy-hidden">4 фото</span> 
+              </button>
+            </li>
+          </ol>
+        </section>
+        <section class="contacts">
+          <h2 class="contacts-title"> Контакты</h2>
+          <h3 class="contacts-subtitle"> Барбершоп "Fargo"</h3>
+          <address class="contacts-adress">
+          <p class="contacts-adress-text"> Житомир Киевская 25</p>
+          <a class="contacts-phone" href="tel:+380974529132">+380974529132</a>
+        </address>
+          <h3 class="contacts-subtitle"> Время работы</h3>
+          <ul class="contacts-schedule">
+            <li class="contacts-schedule-item">Пн-Пт: с 10:00 до 21:00</li>
+            <li class="contacts-schedule-item">Сб-Вс: с 10:00 до 19:00</li>
+          </ul>
+          <a class="button" href="#"> Как проехать</a>
+          <a class="button button-feedback" href="#">Обратная связь</a>
+        </section>
+        <section class="appointment">
+          <h2 class="appointment-title">Записаться</h2>
+          <p>Укажите желаемую дату и время и мы свяжемся с Вами для подтверждения брони</p>
+          <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+            <p>
+            <span class="form-label form-label-icon">
+            <label for="appointment-date"> Дата</label>
+            <button class="info" type="button">
+              <span class="vissualy-hidden">Посмотреть дополнительную информацию</span></button>
+            </span>
+              <input type="text" id="appointment-date" name="appointment-date" placeholder="01.01.2022">
+            </p>
+            <p>
+            <span class="form-label form-label-icon">
+            <label for="appointment-time">Время</label>
+            <button class="info" type="button">
+              <span class="vissualy-hidden">Посмотреть дополнительную информацию</span></button>
+            </span>
+              <input type="text" id="appointment-time" name="appointment-time" placeholder="10:00">
+            </p>
+            <p>
+            <span class="form-label form-label-icon">
+            <label for="appointment-phone"> Телефон</label>
+              <input type="text" id="appointment-phone" name="appointment-phone" placeholder="+380974529132">
+            </p>
+            <p>
+            <span class="form-label form-label-icon">
+            <label for="appointment-name"> Имя</label>
+              <input type="text" id="appointment-name" name="appointment-name">
+            </p>
+              <button class="button" type="sumbit">Записаться</button>
+            </form>
+          </section>
+          <footer class="page-footer">
+            <section class="page-footer">
+              <h2 class="vissualy-hidden">Контакты<h2>
+                <img class="logo" src="" alt="лого Барбершоп Бородинский">
+                <address class="footer-contacts-adress">
+          <p class="abaut-text"> Житомир Киевская 25</p>
+          <a class="footer-contacts-adress-phone" href="tel:+380974529132">+380974529132</a>
+          <a class="footer-contacts-map-link" href="https://www.google.com/maps/dir//fargo+житомир/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x472c65838f05b49b:0x1f4ade9ccd2fee7f?sa=X&ved=2ahUKEwijpfat6K_5AhXC_CoKHUQ_BPAQ9Rd6BAhJEAU">Как нас найти? </a>
+        </address>
+              </section>
+              <section class="newslatter">
+              <h2 class="page-footer-title">Получайте лучшие предложения<h2>
+                <form class="newslatter-form" action="https://echo.htmlacademy.ru/" method="post">
+                  <p class="newslatter-email">
+                    <label class="vissualy-hidden" for="newslatter-email">Email</label>
+                    <input class="field" placeholder="emailexampl@gmail.com" type="email" name="newslatter-email" id="newslatter-email"required>
+                  </p>
+                  <button class="button-newslatter-button" type="sumbit">
+                    <span class="vissualy-hidden">Отправить</span>
+                  </button>
+                </form>
+              </section>
+              <section class="footer-social">
+              <h2 class="page-footer-title">Давайте дружить<h2>
+                <ul class="footer-social-list">
+                  <li class="footer-social-item">
+                    <a class="button" href="#">
+                      <span class="vissualy-hidden">Твитер</span>
+                    </a>
+                    </li>
+                     <li class="footer-social-item">
+                    <a class="button" href="#">
+                      <span class="vissualy-hidden">Фейсбук</span>
+                    </a>
+                    </li>
+                    <li class="footer-social-item">
+                    <a class="button" href="#">
+                      <span class="vissualy-hidden">Инстаграм</span>
+                    </a>
+                    </li>
+                  </ul>
+                  <p class="abaut-text"> Сделал сильный и умный тип(помазаник)<a href="https://instagram.com/roman_moller_?igshid=YmMyMTA2M2Y="> Ромчик</a></p >
+              </section>
+          </footer>
+
+
+
+    </main>
+  </body>
+</html>
